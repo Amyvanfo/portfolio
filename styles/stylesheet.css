@@ -1,35 +1,26 @@
 <style>
-  h1{
-    color:#618685;
+  h1, h2, h3, p {
+  font-family: "Arial", sans-serif;
   }
-  h1, h2, h3, h4, h5, li, p{
-    font-family: "verdana"
+  h1, h2{
+    font-variant: small-caps;
   }
-  p{
-    color:#80ced6;
+  h1 {
+    text-align: center;
   }
-  p,h1, h2, h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 150px;
-  }
-  body{
-  background-color: white;
-  }
-  img {
-    border:8px solid #66ffcc;
+  nav {
+  border: 2px solid black;
+  outline: purple solid 10px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
   }
   img {
-    float: none
-  }
-  img {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 150px;
-    margin-left: 80px;
+    border:1px solid black;
+
   }
   a:link {
-    color: #80ced6
+    color: blue
   }
   a:visited {
     color: green
@@ -37,4 +28,34 @@
   a:hover{
     color: orange
   }
-</style>
+  article {
+    width: 520px;
+    padding: 10px;
+    border: 5px solid purple;
+    margin: 10px;
+  }
+  aside{
+    float: center;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid purple;
+    margin: 0;
+  }
+  div.gallery {
+   margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+   width: 180px;
+ }
+ div.gallery:hover {
+   border: 1px solid #777;
+ }
+ div.gallery img {
+   width: 100%;
+   height: auto;
+ }
+ div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  </style>

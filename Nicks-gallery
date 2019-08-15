@@ -1,0 +1,14 @@
+
+<div class="gallery">
+<a target="_blank" href="img_5terre.jpg">
+<img src="images/covered-bridge.jpg" alt="A covered bridge over a river" width="600" height="400">
+</a>
+<div class="desc">A covered bridge over a river</div>
+</div>
+
+<div class="gallery">
+<a target="_blank" href="img_forest.jpg">
+<img src="images/cat-shredder.jpg" alt="cat sitting near office shredded" width="600" height="400">
+</a>
+<div class="desc">A cat near the paper shredder</div>
+</div>
