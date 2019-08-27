@@ -1,16 +1,21 @@
 <style>
-  h1, h2, h3, p {
-  font-family: "Verdana", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+  h3{
+  font-family: "Hind Madurai", sans-serif;
   }
+  p {
+    font-family: "Hind Madurai", sans-serif;
+    }
   h1, h2{
     font-variant: small-caps;
+    font-family: "Hind Madurai", sans-serif;
+
   }
   h1 {
     text-align: center;
   }
   nav {
-  border: 2px solid black;
-  outline: purple solid 10px;
+  outline: tomato solid 10px;
   margin: auto;
   padding: 20px;
   text-align: center;
@@ -20,10 +25,10 @@
 
   }
   a:link {
-    color: blue
+    color: black;
   }
   a:visited {
-    color: green
+    color: #ff5c33;
   }
   a:hover{
     color: orange
@@ -33,13 +38,14 @@
     padding: 10px;
     border: 5px solid purple;
     margin: 10px;
+
   }
   aside{
-    float: left;
+    flex: row;
     width: 200px;
     padding: 10px;
     border: 5px solid purple;
-    margin: 0;
+    margin: 10px;
   }
   div.gallery {
    margin: 5px;
@@ -53,9 +59,14 @@
  div.gallery img {
    width: 100%;
    height: auto;
+   padding-right: 20px;
  }
  div.desc {
   padding: 15px;
   text-align: center;
+}
+footer {
+  margin: 10px;
+  flex: auto;
 }
   </style>
