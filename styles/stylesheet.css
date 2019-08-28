@@ -1,6 +1,8 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
-  h3{
+
+
+  h3 {
   font-family: "Hind Madurai", sans-serif;
   }
   p {
@@ -9,10 +11,14 @@
   h1, h2{
     font-variant: small-caps;
     font-family: "Hind Madurai", sans-serif;
+    padding-right: 5%;
 
   }
   h1 {
     text-align: center;
+  }
+  .desc {
+    font-family: "Hind Madurai", sans-serif;
   }
   nav {
   outline: tomato solid 10px;
@@ -33,25 +39,16 @@
   a:hover{
     color: orange
   }
-  article {
-    width: 520px;
-    padding: 10px;
-    border: 5px solid purple;
-    margin: 10px;
+  .box {
+    display: flex;
+    flex-direction: row;
+        }
 
-  }
-  aside{
-    flex: row;
-    width: 200px;
-    padding: 10px;
-    border: 5px solid purple;
-    margin: 10px;
-  }
   div.gallery {
-   margin: 5px;
+  margin: 5px;
   border: 1px solid #ccc;
   float: left;
-   width: 180px;
+  width: 180px;
  }
  div.gallery:hover {
    border: 1px solid #777;
@@ -67,6 +64,7 @@
 }
 footer {
   margin: 10px;
-  flex: auto;
+  background-position: bottom;
+  background-color: tomato;
+  text-align: center;
 }
-  </style>
