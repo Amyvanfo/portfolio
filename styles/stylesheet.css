@@ -1,12 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
-<script src="https://kit.fontawesome.com/61876e87f1.js"></script>
 
 
-  h3 {
-  font-family: "Hind Madurai", sans-serif;
-  }
-  p {
+
+  p, h3 {
     font-family: "Hind Madurai", sans-serif;
     }
   h1, h2{
@@ -17,6 +14,9 @@
   }
   h1 {
     text-align: center;
+  }
+  .fas{
+    font-size: 100px;
   }
   .desc {
     font-family: "Hind Madurai", sans-serif;
@@ -44,28 +44,22 @@
     display: flex;
     flex-direction: row;
         }
-    .right{
-      float: right;
-            }
-  div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  display: flex;
-  flex-wrap: wrap;
-  width: 180px;
-   }
  div.gallery:hover {
    border: 1px solid #777;
  }
  div.gallery img {
-   width: 100%;
-   height: auto;
-   padding-right: 5%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
  }
  div.desc {
   padding: 15px;
   text-align: center;
 }
+.right{
+  float: right;
+      }
 footer {
   margin: 10px;
   background-position: bottom;
