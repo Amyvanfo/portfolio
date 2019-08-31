@@ -40,7 +40,7 @@
   a:hover{
     color: orange
   }
-  .box {
+.box {
     display: flex;
     flex-direction: row;
         }
