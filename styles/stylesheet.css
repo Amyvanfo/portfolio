@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+<script src="https://kit.fontawesome.com/61876e87f1.js"></script>
 
 
   h3 {
@@ -43,20 +44,23 @@
     display: flex;
     flex-direction: row;
         }
-
+    .right{
+      float: right;
+            }
   div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
   width: 180px;
- }
+   }
  div.gallery:hover {
    border: 1px solid #777;
  }
  div.gallery img {
    width: 100%;
    height: auto;
-   padding-right: 20px;
+   padding-right: 5%;
  }
  div.desc {
   padding: 15px;
@@ -67,4 +71,8 @@ footer {
   background-position: bottom;
   background-color: tomato;
   text-align: center;
+  Clear: both;
+}
+.clear {
+  clear: both;
 }
