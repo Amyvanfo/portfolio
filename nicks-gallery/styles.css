@@ -1,0 +1,54 @@
+/*This page is the styles for the order form*/
+
+p, h3, li, label{
+    font-family: "Hind Madurai", sans-serif;
+    }
+  h1, h2{
+    font-variant: small-caps;
+    font-family: "Hind Madurai", sans-serif;
+    padding-right: 5%;
+
+  }
+  h1 {
+    text-align: center;
+}
+  h2 {
+    text-align: left;
+    }
+  nav {
+    outline: tomato solid 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  button, input, select, textarea {
+    font-size: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem;
+  }
+  img{
+    display: flex;
+    margin: 1rem;
+  }
+
+  .checkbox label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 12px;
+    cursor: pointer;
+    -webkit-user-select; none;
+    -ms-user-select; none;
+    user-select: none;
+  }
+  .checkmark:after {
+    display: block;
+}
+
+input[type=submit]
+}
+ width: 10%;
+ background-color: tomato;
+}
