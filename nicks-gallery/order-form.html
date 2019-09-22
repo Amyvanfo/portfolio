@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Photo Order Form</title>
+    <script src="https://kit.fontawesome.com/61876e87f1.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/stylesheet.css">
+  </head>
+  <body>
+    <h1>Photo Order form</h1>
+
+    <form method="GET">
+    <fieldset class="checkbox">Please check the photos you would like to order.
+      <label>Photo ID 123
+        <input type="checkbox" name="Photo" value="123">
+        <span class="checkmark"></span>
+      </label>
+      <label>photo ID 444
+        <input type="checkbox" name="photo"
+      value="444">
+      <span class="checkmark"></span>
+      </label>
+      <label>photo ID 789
+        <input type="checkbox" name="photo"
+      value="789">
+      <span class="checkmark"></span>
+      </label>
+    </fieldset>
+    <label>Please select the photo size
+      <select name="size">
+        <option value="">please select</option>
+        <option value="3x5">3x5</option>
+        <option value="5x7">5x7</option>
+        <option value="8x10">8x10</option>
+      </select>
+    </label>
+    <label>Name
+      <input type="text" name="customerName">
+    </label>
+    <label>Mailing address
+      <input type="text" name="mailingAddress">
+    </label>
+    <fieldset>
+      <legend>Payment type
+      </legend>
+      <label>Credit or Debit
+      <input type="radio" name="special" value="credit">
+      </label>
+      <label>Paypal
+      <input type="radio" name="special" value="paypal">
+      </label>
+    </fieldset>
+    <label>Enter Credit Card
+      <input type="number" name="acctNumber">
+    </label>
+
+      <input type="submit" value="Place order">
+    </form>
+  </body>
+</html>
