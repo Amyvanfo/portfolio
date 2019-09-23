@@ -7,7 +7,6 @@ p, h3, li, label{
     font-variant: small-caps;
     font-family: "Hind Madurai", sans-serif;
     padding-right: 5%;
-
   }
   h1 {
     text-align: center;
@@ -21,16 +20,27 @@ p, h3, li, label{
     padding: 20px;
     text-align: center;
   }
-  button, input, select, textarea {
+  button, select,input, textarea {
     font-size: inherit;
     font-size: 100%;
     box-sizing: border-box;
     display: block;
     margin: 1rem;
   }
-  img{
+  img {
     display: flex;
     margin: 1rem;
+  }
+  input[type=submit]{
+   width: 10%;
+   background-color: tomato;
+  }
+  input[type=radio]{
+
+  }
+  .payment {
+    padding: 1rem;
+    border: none;
   }
 
   .checkbox label {
@@ -39,16 +49,7 @@ p, h3, li, label{
     padding-left: 35px;
     margin-top: 12px;
     cursor: pointer;
-    -webkit-user-select; none;
-    -ms-user-select; none;
-    user-select: none;
-  }
+      }
   .checkmark:after {
     display: block;
-}
-
-input[type=submit]
-}
- width: 10%;
- background-color: tomato;
 }

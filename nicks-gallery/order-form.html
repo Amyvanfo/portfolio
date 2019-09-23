@@ -21,38 +21,35 @@
         <label>Photo ID 123
         <input type="checkbox" name="Photo" value="123">
         <span class="checkmark"></span>
-        <img src="http://lorempixel.com/output/animals-q-c-75-75-7.jpg" alt="small cat">
-      </label>
-      <label>Photo ID 444
-        <input type="checkbox" name="photo"
-      value="444">
-      <span class="checkmark"></span>
-      <img src="http://lorempixel.com/output/nature-q-c-75-75-6.jpg"alt="pansy">
-      </label>
-      <label>Photo ID 789
-        <input type="checkbox" name="photo"
-      value="789">
-      <span class="checkmark"></span>
-      <img src="http://lorempixel.com/output/sports-q-c-75-75-5.jpg"alt="bmx cyclist">
-      </label>
+          <img src="http://lorempixel.com/output/animals-q-c-75-75-7.jpg" alt="small cat">
+        </label>
+        <label>Photo ID 444
+        <input type="checkbox" name="photo" value="444">
+        <span class="checkmark"></span>
+          <img src="http://lorempixel.com/output/nature-q-c-75-75-6.jpg" alt="pansy">
+        </label>
+        <label>Photo ID 789
+        <input type="checkbox" name="photo" value="789">
+        <span class="checkmark"></span>
+          <img src="http://lorempixel.com/output/sports-q-c-75-75-5.jpg" alt="bmx cyclist">
+        </label>
     </fieldset>
-    <label>Please select the photo size
+      <label>Please select the photo size
       <select name="size">
         <option value="">please select</option>
         <option value="3x5">3x5</option>
         <option value="5x7">5x7</option>
         <option value="8x10">8x10</option>
       </select>
-    </label>
-    <label>Name
-      <input type="text" name="customerName">
-    </label>
-    <label>Mailing address
-      <input type="text" name="mailingAddress">
-    </label>
+      </label>
+      <label>Name
+        <input type="text" name="customerName">
+      </label>
+      <label>Mailing address
+        <input type="text" name="mailingAddress">
+      </label>
     <fieldset>
-      <legend>Payment type
-      </legend>
+      <legend>Payment type</legend>
       <label>Credit or Debit
       <input type="radio" name="special" value="credit">
       </label>
@@ -60,10 +57,15 @@
       <input type="radio" name="special" value="paypal">
       </label>
     </fieldset>
-    <label>Enter Credit Card
+    <fieldset class="payment">
+    <label>Enter Credit Card number
       <input type="number" name="acctNumber">
     </label>
-
+    <label>
+      expiration date MM/YY
+      <input type="number" name="expiration">
+    </label>
+    </fieldset>
       <input type="submit" value="Place order">
     </form>
   </body>
